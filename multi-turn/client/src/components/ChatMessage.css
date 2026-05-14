@@ -1,0 +1,34 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  max-width: 85%;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  line-height: 1.5;
+}
+
+.message--user {
+  align-self: flex-end;
+  background-color: #1a3a5c;
+}
+
+.message--assistant {
+  align-self: flex-start;
+  background-color: #1e1e1e;
+  border: 1px solid #2a2a2a;
+}
+
+.message__role {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #888;
+}
+
+.message__content {
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
