@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /home/demianholmberg/AI_PROJECTS/calculator/client/src/components)",
+      "Bash(mkdir -p /home/demianholmberg/AI_PROJECTS/calculator/server/src/routes)",
+      "Bash(mkdir -p /home/demianholmberg/AI_PROJECTS/calculator/server/src/tools)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -X POST http://localhost:3002/api/chat -H 'Content-Type: application/json' -d '{\"messages\":[{\"role\":\"user\",\"content\":\"add 2 and 3\"}]}' --max-time 15)",
+      "Bash(npm test *)"
+    ]
+  }
+}

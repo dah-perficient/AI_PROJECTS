@@ -14,7 +14,12 @@ export default defineConfig({
     },
     server: {
         proxy: {
-            '/api': 'http://localhost:3001',
+            '/api': 'http://localhost:3002',
         },
+    },
+    test: {
+        environment: 'jsdom',
+        globals: true,
+        setupFiles: ['./src/test/setup.ts'],
     },
 });
